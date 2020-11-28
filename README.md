@@ -7,6 +7,10 @@ This repository is to create tflite models for the available ocr models. Till no
 - [Captcha OCR](https://keras.io/examples/vision/captcha_ocr/)
 - [Keras OCR](https://github.com/faustomorales/keras-ocr)
 
+### TFLite Models On Progress (Stay Tuned)
+
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+
 ### About the files
  ```
  ├── colabs
@@ -29,3 +33,6 @@ You can find this [repo](https://github.com/tulasiram58827/craft_tflite) for con
 
 - [Converting CRAFT to TFLite: A Guide to PyTorch-TFLite Conversion](https://tulasi.dev/craft-in-tflite)
 - [A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST](https://sayak.dev/optimizing-text-detectors/)
+
+
+Feel free to suggest any other models through issues or contribute using Pull Requests.
