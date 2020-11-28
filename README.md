@@ -1,6 +1,6 @@
 # Converting Opensourced OCR Models to TFLite
 
-This repository is to create tflite models for the available ocr models. Till now I have converted two popular OCR models to TFLite and also added inference codes.
+This repository is to create tflite models for the available ocr models. Till now I have converted two popular OCR models to TFLite and also added inference code.
 
 ### TFLite Models Available
 
