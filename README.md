@@ -7,6 +7,8 @@ This repository is to create tflite models for the available ocr models. Till no
 - [Captcha OCR](https://keras.io/examples/vision/captcha_ocr/)
 - [Keras OCR](https://github.com/faustomorales/keras-ocr)
 
+**Note: Currently Keras OCR doesn't support Integer Quantization and already reported to TFLite team.**
+
 ### TFLite Models On Progress (Stay Tuned)
 
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR)
