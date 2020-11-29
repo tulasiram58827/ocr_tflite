@@ -1,13 +1,13 @@
 # Converting Opensourced OCR Models to TFLite
 
-This repository is to create tflite models for the available ocr models. Till now I have converted two popular OCR models to TFLite and also added inference code.
+This repository is to create tflite models for the available ocr models.
 
 ### TFLite Models Available
 
 - [Captcha OCR](https://keras.io/examples/vision/captcha_ocr/)
 - [Keras OCR](https://github.com/faustomorales/keras-ocr)
 
-**Note: Currently Keras OCR doesn't support Integer Quantization and already reported to TFLite team.**
+**Note: Currently Keras OCR doesn't support Integer Quantization as of now and already reported to TFLite team.**
 
 ### TFLite Models On Progress (Stay Tuned)
 
@@ -30,13 +30,22 @@ This repository is to create tflite models for the available ocr models. Till no
  ├── data
      Contains representative dataset used while converting to TFLite using Integer Quantization.
  ```
+ 
+### Benchmarks
 
-Will be uploading end to end OCR with TFLite Models (CRAFT as Text Detector and Keras OCR as Text Recognizer) soon.
+**KERAS OCR**
 
+![alt text](benchmarks/kerasocr_benchmark.png)
+<p align="center">
+<img align="center" src="benchmarks/memory_footprint.png">
+ </p>
+ 
+                                           All the above benchmarks are w.r.t Redmi K20 Pro
+ 
 You can find this [repo](https://github.com/tulasiram58827/craft_tflite) for converting CRAFT models to TFLite and using them for inference. For more details please find these blogs on Text Detectors.
 
 - [Converting CRAFT to TFLite: A Guide to PyTorch-TFLite Conversion](https://tulasi.dev/craft-in-tflite)
 - [A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST](https://sayak.dev/optimizing-text-detectors/)
 
 
-Feel free to suggest any other models through issues or contribute using Pull Requests.
+Feel free to suggest any other models through issues or contribute through Pull Requests.
