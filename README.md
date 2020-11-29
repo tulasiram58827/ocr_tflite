@@ -16,9 +16,10 @@ This repository is to create tflite models for the available ocr models. Till no
 ### About the files
  ```
  ├── colabs
-     ├── KERAS_OCR_TFLITE.ipynb       --> End to End Code for Converting Keras OCR models to TFLite and doing inference.
-     ├── captcha_ocr_tflite.ipynb     --> End to End to Convert Keras Captcha OCR to TFLite and code to do inference.
+     ├── KERAS_OCR_TFLITE.ipynb       --> Code for Convert Keras OCR model to TFLite and doing inference.
+     ├── captcha_ocr_tflite.ipynb     --> Code to Convert Keras Captcha OCR to TFLite and code to do inference.
      ├── captcha_ocr_inference.ipynb  --> Inference code for captcha OCR.
+     ├── ENDTOEND_OCR_TFLITE.ipynb    --> End to End OCR with CRAFT,EAST as text detector and KERAS OCR as Recognition Engine.
 
  ├── models
      ├──  ocr_dr.tflite                --> Captcha OCR TFLite model.
