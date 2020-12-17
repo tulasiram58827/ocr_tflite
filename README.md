@@ -42,6 +42,10 @@ This repository is to create tflite models for the available ocr models.
  
                                            All the above benchmarks are w.r.t Redmi K20 Pro
  
+### Tensorflow Hub
+
+Keras OCR Models are published in [TensorFlow Hub](https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/dr/1)
+
 You can find this [repo](https://github.com/tulasiram58827/craft_tflite) for converting CRAFT models to TFLite and using them for inference. For more details please find these blogs on Text Detectors.
 
 - [Converting CRAFT to TFLite: A Guide to PyTorch-TFLite Conversion](https://tulasi.dev/craft-in-tflite)
