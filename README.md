@@ -40,7 +40,7 @@ This repository is to create tflite models for the available ocr models.
 <img align="center" src="benchmarks/memory_footprint.png">
  </p>
  
-                                           All the above benchmarks are w.r.t Redmi K20 Pro
+                                           All the above benchmarks are w.r.t Redmi K20 Pro using 4threads.
  
 ### Tensorflow Hub
 
