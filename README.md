@@ -6,12 +6,10 @@ This repository is to create tflite models for the available ocr models.
 
 - [Captcha OCR](https://keras.io/examples/vision/captcha_ocr/)
 - [Keras OCR](https://github.com/faustomorales/keras-ocr)
+- [Deep Text Recognition](https://github.com/clovaai/deep-text-recognition-benchmark) (EasyOCR uses the fine-tuned version of this model)
 
 **Note: Currently Keras OCR doesn't support Integer Quantization as of now and already reported to TFLite team.**
 
-### TFLite Models On Progress (Stay Tuned)
-
-- [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ### About the files
  ```
@@ -19,12 +17,15 @@ This repository is to create tflite models for the available ocr models.
      ├── KERAS_OCR_TFLITE.ipynb       --> Code for Convert Keras OCR model to TFLite and doing inference.
      ├── captcha_ocr_tflite.ipynb     --> Code to Convert Keras Captcha OCR to TFLite and code to do inference.
      ├── captcha_ocr_inference.ipynb  --> Inference code for captcha OCR.
+     ├── Deep_Text_Recognition_TFLite.ipynb  --> Code to Convert Deep Text Recognition Model to TFLite with inference.
      ├── ENDTOEND_OCR_TFLITE.ipynb    --> End to End OCR with CRAFT,EAST as text detector and KERAS OCR as Recognition Engine.
 
  ├── models
      ├──  ocr_dr.tflite                --> Captcha OCR TFLite model.
      ├──  keras_ocr_dr.tflite          --> Keras OCR Dynamic Range Quantized TFLite Model
      ├──  keras_ocr_float16.tflite     --> Keras OCR Float16 Quantized TFLite Model
+     ├──  cnn_dr.tflite                --> Deep Text Recognition Dynamic Range Quantized TFLite Model
+     ├──  cnn_float16.tflite           --> Deep Text Recognition Float16 Quantized FLite Model 
  ├── images
      Contains sample input images used for inference.
  ├── data
